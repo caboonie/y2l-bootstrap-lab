@@ -9,30 +9,45 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style type="text/css">
   	#line { border-right: 1px solid #ccc;}
+  	.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;}
   </style>
 </head>
 <body>
-  
-<div class="container" id=line>
-  <div class="row">
-  	<div class="col-xs-2" id=line>Animal</div>
-  	<div class="col-xs-4" id=line>Image</div>
-  </div>       
-  <div class="row">
-  	<div class="col-xs-2" id=line>Cat</div>
-  	<div class="col-xs-4" id=line>
-  		<img src="http://www.cutenessoverflow.com/wp-content/uploads/2015/05/cat-tongue-out-22.jpg" style="width:220px;"></div>
-  </div> 
-  <div class="row" >
-  	<div class="col-xs-2" style="background-color:lavender;">Animal</div>
-  	<div class="col-xs-4" style="background-color:lavender;"><img src="http://www.cutenessoverflow.com/wp-content/uploads/2015/05/cat-tongue-out-22.jpg" style="width:220px;"></div>
 
-  </div> 
+<div class="container">
   <div class="row">
-  	<div class="col-xs-2">Animal</div>
-  	<div class="col-xs-4"><img src="http://www.cutenessoverflow.com/wp-content/uploads/2015/05/cat-tongue-out-22.jpg" style="width:220px;"></div>
-  </div>  
+  <!--<div class="col-xs-5">-->
+  <h2>Animal Table</h2>          
+  <table class="table table-bordered table-striped text-center vcenter" >
+    <thead>
+      <tr>
+        <th>Animal</th>
+        <th>Picture</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      	<td>Cat</td>
+        <td><img src="http://www.cutenessoverflow.com/wp-content/uploads/2015/05/cat-tongue-out-22.jpg" style="width:220px;"></td>
+      </tr>
+      <tr>
+        <td>CAT</td>
+        <td><img src="http://www.cutenessoverflow.com/wp-content/uploads/2015/05/cat-tongue-out-22.jpg" style="width:220px;"></td>
+      </tr>
+      <tr>
+        <td>cat</td>
+        <td><img src="http://www.cutenessoverflow.com/wp-content/uploads/2015/05/cat-tongue-out-22.jpg" style="width:220px;"></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <!--</div>-->
 </div>
+  
+
 
 <div class="container" id=line>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
